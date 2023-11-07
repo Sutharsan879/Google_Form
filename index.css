@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    font-family: Roboto,sans-serif;
+}
+.form{
+    height: 100vh;
+    width: 600px;
+    margin: auto;
+}
+.required {
+    font-size: 13px;
+    color: red;
+}
+.title-div{
+    height: 110px;
+    width: 650px;
+    background-color: whitesmoke;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #676767;
+    padding: 25px;
+    margin-left: 0px;
+}
+.name-div,.college-div,.gmail-div,.mobile-div{
+    height: 150px;
+    width: 650px;
+    background-color: #fdfefe;
+    margin: 5px;
+    border-radius: 8px;
+}
+.name{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.input-div{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.input-div input{
+    width: 300px;
+    border: 0px;
+    outline: 0px;
+    border-bottom: 02px solid #DCD707;
+    font-size: 15px;
+}
+.btn{
+    height: 36px;
+    width: 100px;
+    background-color: #6703c4;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 540;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    margin: 15px;
+    color: #6703c4;
+}
+.last-div h2{
+    text-align: center;
+    padding-top: 10px;
+    color: #6703c4;
+    font-weight: 200;
+}
+.never{
+    text-align: center;
+    padding-left: 15px;
+    font-size: 18px;
+    padding-top: 70px;
+    font-weight: 400;
+}
+.finish .s
+{
+    padding: 10px 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+    color: #fff;
+    background: #6703c4;
+    font-size: 20px;
+}
+.finish .s:hover{
+    background: #0ef;
+    color: black;
+}
